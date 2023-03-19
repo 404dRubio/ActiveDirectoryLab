@@ -50,7 +50,34 @@ Next I setup a DHCP server on the domain controller:  <br/>
 I then set up the DCHP scope so that the client computers on the network get their IP from the network automatically:  <br/> 
 <img src="https://i.imgur.com/lh08jo0.png" height="80%" width="80%" alt="DHCP"/>
  
+<p align="center">
+Creating Users with PowerShell  <br/> 
+<img src="https://i.imgur.com/7f5JIlg.png" height="80%" width="80%" alt="PS script"/>
  
+ 
+<p align="center">
+Now that the Domain Controller is set up with users and NAT setup, also the DHCP setup I went ahead and created another VM simulating a "corporate" style network so we set it up with the Internal Network settings.<br/> 
+<img src="https://i.imgur.com/sxBh3Iz.png" height="80%" width="80%" alt="PS script"/>
+ 
+ 
+ 
+<p align="center">
+Once I got the client VM running I checked to make sure the configuration was set up, and pinged to the internet to make sure everything was working properly <br/> 
+<img src="https://i.imgur.com/jB8mkEl.png" height="80%" width="80%" alt="PS script"/>
+ 
+<p align="center">
+I went ahead and changed the client VM respectively and joined the server domain as well. <br/> 
+<img src="https://i.imgur.com/W9kSJhN.png" height="80%" width="80%" alt="PS script"/>
+ 
+<p align="center">
+Now that the client side VM has joined the domain I went ahead and logged in from an account I made on the original server. You can see it says sign in to: MYDOMAIN. <br/> 
+<img src="https://i.imgur.com/VfMPHKk.png" height="80%" width="80%" alt="PS script"/>
+ 
+ 
+<p align="center">
+With everything set up I did a final check to make sure once I was logged in through the domain, and that concludes what I have done for this lab so far. <br/> 
+<img src="https://i.imgur.com/tOBVMyo.png" height="80%" width="80%" alt="PS script"/>
+
  
 </p>
 
