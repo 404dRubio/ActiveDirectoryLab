@@ -17,9 +17,12 @@ In this lab I created an Active Directory home lab Environment using Oracle Virt
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After setting up the VM server 2019 I went and identified the main network and internal network: <br/>
+<img src="https://i.imgur.com/A8iMtUH.png" height="80%" width="80%" alt="Internet Identification"/>
 
+<p align="center">
+Setting up the IP for the internal network giving the loop back IP for the preferred DNS: <br/>
+<img src="https://i.imgur.com/q7qb7ix.png" height="80%" width="80%" alt="I.P. Set up"/>
 </p>
 
 <!--
